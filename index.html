@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/home.css" />
+    <title>InfoIP | Inicio</title>
+</head>
+
+<body class="inicio-body">
+    <header class="inicio-header">
+        <h1 class="inicio-header__title">Bienvenido a Info IP</h1>
+    </header>
+    <main class="inicio-main">
+            <div class="inicio-div-form">
+                <form id="first-form" class="inicio-form">
+                    <div class="div-first-label">
+                        <label class="inicio-first__label" for="ip">
+                            IP del Usuario
+                            <input id="ip" type="text" class="inicio-first__input" placeholder="Ingrese aquí la IP"
+                                required />
+                            <small>Por ejemplo: 18.228.167.221</small>
+                        </label>
+                    </div>
+                    <button type="submit" id="submit" class="button-primary">Buscar información de IP</button>
+                </form>
+            </div>
+            <div class="div-resultado">
+                <pre id="resultado" class="resultado-pre">
+            </pre>
+            </div>
+    </main>
+    <script src="./assets/scripts/home.js"></script>
+</body>
+
+</html>
